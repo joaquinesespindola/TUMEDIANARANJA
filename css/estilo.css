@@ -163,16 +163,21 @@ h1{
   }
 
   .mensaje{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+    background-image: linear-gradient(to left, rgb(81, 233, 35), rgb(86, 179, 0), rgb(68, 216, 0));
     
     
   }
 
-  .contacto{
-    padding: 3rem;
+  .mensaje1{
+    background-image: linear-gradient(to left, rgb(255, 7, 243), rgb(243, 247, 21) rgb(255, 0, 157));
     
+    
+  }
+
+  .boton1{
+    justify-content: center;
+    align-items: center;
+    display: grid;
   }
 
   .nosotros{
