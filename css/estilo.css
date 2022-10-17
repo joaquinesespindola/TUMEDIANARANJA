@@ -174,6 +174,168 @@ h1{
     
   }
 
+  .botonp{
+    color: black;
+    font-family: 'Bangers', cursive;
+  }
+
+      .botonwsp{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background: #1a032100;
+        font-family:consolas;
+    }
+    .btn-neon{
+        position: relative;
+        display: inline-block;
+        padding: 15px 30px;
+        color: rgb(0, 0, 0);
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 24px;
+        overflow: hidden;
+        transition: 0.2s;
+    }
+    .btn-neon:hover{
+        background: #6ec745;
+        box-shadow: 0 0 10px #00ff15, 0 0 40px #00ff15, 0 0 80px #00ff15;
+        transition-delay: 1s;
+    }
+    .btn-neon span{
+        position: absolute;
+        display: block;
+    }
+    #span1{
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent,#00ff15);
+    }
+    .btn-neon:hover #span1{
+        left: 100%;
+        transition: 1s;
+    }
+    #span3{
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, transparent,#00ff15);
+    }
+    .btn-neon:hover #span3{
+        right: 100%;
+        transition: 1s;
+        transition-delay: 0.5s;
+    }
+    #span2{
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg,transparent,#00ff15);
+    }
+    .btn-neon:hover #span2{
+        top: 100%;
+        transition: 1s;
+        transition-delay: 0.25s;
+    }
+    #span4{
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg,transparent,#00ff15);
+    }
+    .btn-neon:hover #span4{
+        bottom: 100%;
+        transition: 1s;
+        transition-delay: 0.75s;
+    }
+
+
+    .botoninsta{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+      background: #1a032100;
+      font-family:consolas;
+  }
+  .btn-neoninsta{
+      position: relative;
+      display: inline-block;
+      padding: 15px 30px;
+      color: rgb(0, 0, 0);
+      letter-spacing: 4px;
+      text-decoration: none;
+      font-size: 24px;
+      overflow: hidden;
+      transition: 0.2s;
+  }
+  .btn-neoninsta:hover{
+      background: #b655a6;
+      box-shadow: 0 0 10px #ff00c8, 0 0 40px #ff00c8 , 0 0 80px #ff00c8;
+      transition-delay: 1s;
+  }
+  .btn-neoninsta span{
+      position: absolute;
+      display: block;
+  }
+  #span1insta{
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent,#ff00c8);
+  }
+  .btn-neoninsta:hover #span1insta{
+      left: 100%;
+      transition: 1s;
+  }
+  #span3insta{
+      bottom: 0;
+      right: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(270deg, transparent,#ff00c8);
+  }
+  .btn-neoninsta:hover #span3insta{
+      right: 100%;
+      transition: 1s;
+      transition-delay: 0.5s;
+  }
+  #span2insta{
+      top: -100%;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(180deg,transparent,#ff00c8);
+  }
+  .btn-neoninsta:hover #span2insta{
+      top: 100%;
+      transition: 1s;
+      transition-delay: 0.25s;
+  }
+  #span4insta{
+      bottom: -100%;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(360deg,transparent,#ff00c8);
+  }
+  .btn-neoninsta:hover #span4insta{
+      bottom: 100%;
+      transition: 1s;
+      transition-delay: 0.75s;
+  }
+
   .boton1{
     justify-content: center;
     align-items: center;
@@ -202,6 +364,53 @@ h1{
  
 }
 
+@media (max-width: 390px){
+  .donde-encontrarnos{
+    display: grid;
+    
+}
+
+
+  .donde-encontrarnos iframe {
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+  }
+
+  .donde-encontrarnos h2{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    flex-direction: column;
+  }
+
+  .nosotros{
+    display: grid;
+    
+ 
+   }
+ 
+ .nosotros img{
+   height: 15rem;
+   width: 15rem;
+   grid-area: span;
+   
+ }
+ 
+ .nosotros p{
+   font-size: 1.5rem;
+   margin: 0 auto;
+   text-align: initial;
+   justify-content: center;
+   padding: 5rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+ }
+
+
+}
 
 
 
