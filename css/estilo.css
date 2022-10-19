@@ -2,6 +2,11 @@ body{
   background-image: url(../IMG/fondo.jpg)
 }
 
+
+.talles{
+  color: #c7c545;
+}
+
 @keyframes fanimado{
     0%{
         background-position: 0% 50%;
@@ -91,7 +96,7 @@ h1{
   }
   
   .tipo-envio{
-    background-color: rgb(250, 181, 52);
+    background-color: rgb(102, 238, 39);
     color:rgb(255, 255, 255);
     font-weight: 600;
     max-width: max-content;
