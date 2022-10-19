@@ -544,6 +544,18 @@ h1{
 }
 
 
+footer{
+ 
+  margin: 0;
+  display: grid;
+ justify-content: center;
+}
+
+.imgfooter{
+  
+}
+
+
 
 
   
