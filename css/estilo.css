@@ -26,6 +26,11 @@ h1{
     font-family: 'Bangers', cursive;
 }
 
+.pedidosproductos{
+  text-align: center;
+  background-color: antiquewhite;
+}
+
 .modelos h2{
   text-align: center;
   font-family: 'Bangers', cursive;
